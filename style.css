@@ -1,0 +1,238 @@
+body {
+  background: linear-gradient(90deg,mintcream,lightskyblue,whitesmoke);
+  background-size: 180% 180%;
+  animation: gradient-animation 5s ease infinite;
+  overflow: inherit;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+#video{
+/*	isplay: none;*/
+	/*width: 100%;
+	height: 100vh;*/
+}
+
+
+@keyframes appear{
+	from{
+		transform: translateY(150px);
+		opacity: 0;
+	}
+	to{
+		transform: translateY(0px);
+		opacity: 1;
+	}
+}
+
+/*@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}*/
+
+@keyframes comedown{
+	from{
+		transform: translateY(-150px);
+		opacity: 0;
+	}
+	to{
+		transform: translateY(0px);
+		opacity: 0.35;
+	}
+}
+
+.section {
+    width: 100%;
+    min-height: 800vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+/*    align-items: center;*/
+}
+
+.section .topic{
+	color: lightyellow;
+	padding: 20px;
+	height: 100vh;
+	width: auto;
+	font-size: 25vh;
+	font-family: sans-serif;
+	font-variant-caps: titling-case;
+/*	background: white;*/
+	display: flex;
+/*	flex-direction: column;*/
+	align-items: center;
+	opacity: 0.35;
+	animation: comedown 5s ease ;
+}
+
+
+#ending {
+	left: 60vw;
+	margin: 5px;
+/*	background: white;*/
+	width: 30%;
+    min-height: 60vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align: right;
+}
+
+
+#text{
+	background: rgba(0, 0, 0, 0.45);
+	left: 8vw;
+	margin: 40px;
+	padding: 30px;
+	position: absolute;
+	top: 1000px;
+	height: 30vh;
+	width: 30vw;
+	z-index: 300;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+
+#Fall{
+	position: sticky;
+	text-align: left;
+	color: whitesmoke;
+	font-family: sans-serif;
+}
+
+/*#beginning .title {
+    color: #d1ff48;
+    font-size: 11em;
+    font-family: "devil breeze";
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+}*/
+
+/*.content-fit {
+    width: min(1200px, 90vw);
+    margin: auto;
+    min-height: 100vh;
+    position: relative;
+    padding-block: 10em;
+}*/
+/*header {
+    padding-block: 1em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10px;
+    backdrop-filter: blur(20px);
+    z-index: 100;
+    background-color: #1B1B1B11;
+    background-image: repeating-linear-gradient(
+        to right, transparent 0 500px, #eee1 500px 501px
+    );
+}
+header .content-fit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: unset!important;
+    padding-block: unset!important;
+}
+header .content-fit nav ul{
+    display: flex;
+    gap: 2em;
+}
+
+#banner .title {
+    color: #d1ff48;
+    font-size: 11em;
+    font-family: "devil breeze";
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+}
+#banner .title::before {
+    content: attr(data-before);
+    position: absolute;
+    top: 0.5em;
+    inset: 0.66em 0 0 0;
+    z-index: -1;
+    color: #445022;
+}
+.section .decorate {
+    position: absolute;
+}
+#intro .content-fit {
+    display: flex;
+    gap: 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+.section .number {
+    font-family: "devil breeze";
+    font-size: 15em;
+    font-weight: bold;
+}
+.section .content-fit .title {
+    font-family: "devil breeze";
+    font-size: 5em;
+    font-weight: bold;
+}
+#description .content-fit {
+    padding-right: 30%;
+}
+#description .number {
+    font-size: 5em;
+}
+#description .title {
+    font-size: 7em;
+    font-weight: 500;
+}
+#contact .content-fit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+#beginning .title::before {
+    content: attr(data-before);
+    position: absolute;
+    top: 0.5em;
+    inset: 0.66em 0 0 0;
+    z-index: -1;
+    color: #445022;
+}
+*/
+
+#container3d {
+/*	height: 200vh;*/
+	position: fixed;
+	inset: 0;
+/*	background-color: lightslategray;*/
+	z-index: 100;
+	pointer-events: none;
+	animation: appear 5s ease ;
+	height: 200vh;
+}
