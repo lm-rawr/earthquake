@@ -18,8 +18,6 @@ They sparked the idea of building the Dharahara (a monument that the earthquake 
 
 https://editor.p5js.org/Aadhar/sketches/Zip4AB-DL
 
-![Building Idea](building.png)
-
 
 ## The Final Spark
 I wasn't really satisfied with the direction I was moving towards and wandering aimlessly on the internet when I stumbled across the website below, which was about Greta Thunberg. It showed her 3D model in the middle as the stories spiraled around her. That really caught my eye and I switched to `THREE.js`, and started building a similar thing.
