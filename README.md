@@ -13,16 +13,23 @@ https://editor.p5js.org/Aadhar/sketches/B2vlUDi8s
 
 ## After The Nepali Times Approached
 They sparked the idea of building the Dharahara (a monument that the earthquake devoured but was rebuilt) while interacting with the site. I was intrigued by that and started experimenting in p5.js, the result of which is below:
+
 https://editor.p5js.org/Aadhar/sketches/Zip4AB-DL
+
+![Building Idea](building.gif)
 
 
 ## The Final Spark
 I wasn't really satisfied with the direction I was moving towards and wandering aimlessly on the internet when I stumbled across the website below, which was about Greta Thunberg. It showed her 3D model in the middle as the stories spiraled around her. That really caught my eye and I switched to `THREE.js`, and started building a similar thing.
 https://theyearofgreta.com/
 
+![Greta Website](greta.png)
+
 
 Although not as clean as the original, I made a 3D model of the broken Dharahara and made the stories spiral around it. The final result is in the site below:
 https://nepalitimes.github.io/earthquake/page1.html 
+
+![My site](final.png)
 
 
 
