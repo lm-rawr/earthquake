@@ -21,12 +21,14 @@ https://editor.p5js.org/Aadhar/sketches/Zip4AB-DL
 
 ## The Final Spark
 I wasn't really satisfied with the direction I was moving towards and wandering aimlessly on the internet when I stumbled across the website below, which was about Greta Thunberg. It showed her 3D model in the middle as the stories spiraled around her. That really caught my eye and I switched to `THREE.js`, and started building a similar thing.
+
 https://theyearofgreta.com/
 
 ![Greta Website](greta.png)
 
 
 Although not as clean as the original, I made a 3D model of the broken Dharahara and made the stories spiral around it. The final result is in the site below:
+
 https://nepalitimes.github.io/earthquake/page1.html 
 
 ![My site](final.png)
