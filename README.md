@@ -11,12 +11,14 @@ You can access the experience below (built through `p5.js`). Just click the Run 
 
 https://editor.p5js.org/Aadhar/sketches/B2vlUDi8s 
 
+![Initial Museum Exploration Prototype](Initial.png)
+
 ## After The Nepali Times Approached
 They sparked the idea of building the Dharahara (a monument that the earthquake devoured but was rebuilt) while interacting with the site. I was intrigued by that and started experimenting in p5.js, the result of which is below:
 
 https://editor.p5js.org/Aadhar/sketches/Zip4AB-DL
 
-![Building Idea](building.gif)
+![Building Idea](building.png)
 
 
 ## The Final Spark
