@@ -2,6 +2,10 @@
 An interactive website that hosts different stories from the mega-earthquake that struck Nepal in 2015. 
 Commissioned by The Nepali Times (whose stories have been used to populate the site).
 
+Check out the experience below!
+
+https://nepalitimes.github.io/earthquake
+
 # The Stages of Development
 The project went through several stages until completion, as I always wanted to commemorate what happened in 2015 on the web. Giving a space to the tragedy, how it made the nation come together and the eventual reformations we made.
 
